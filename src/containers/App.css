@@ -11,3 +11,6 @@ h1{
   font-weight: 100;
   color: aquamarine;
 }
+.img-size{
+  max-width: 50%;
+}
