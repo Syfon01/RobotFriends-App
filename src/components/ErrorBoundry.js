@@ -12,7 +12,6 @@ class ErrorBoundary extends Component {
   componentDidCatch(error, info) {
     this.setState({ hasError: true });
   }
-
   render() {
     if (this.state.hasError) {
       return <h1>ooppppsss there is an error there</h1>
